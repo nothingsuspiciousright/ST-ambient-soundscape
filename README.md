@@ -56,8 +56,6 @@ Silly Tavern Ambient Soundscape
 2. Вставьте ссылку на репозиторий:
    ```text
    https://github.com/nothingsuspiciousright/ST-ambient-soundscape
-
-   ---
 ---
 
 # 🌐 English Description
