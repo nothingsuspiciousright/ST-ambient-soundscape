@@ -55,4 +55,54 @@ Silly Tavern Ambient Soundscape
 1. Откройте **SillyTavern** -> вкладку **Extensions** (иконка кубиков сверху) -> **Install extension**.
 2. Вставьте ссылку на репозиторий:
    ```text
-   https://github.com/nothingsuspiciousright/ST-ambient-soundscape-extension
+   https://github.com/nothingsuspiciousright/ST-ambient-soundscape
+
+   ---
+---
+
+# 🌐 English Description
+
+**ST Ambient Soundscape** is a lightweight, 100% self-contained procedural audio mixer extension for **SillyTavern** that brings immersive soundscapes to your roleplay sessions.
+
+**Zero External MP3s:** All **13 audio tracks** are synthesized in real-time using the browser's native **Web Audio API**. It takes up 0 MB of audio files, never suffers from broken links or noticeable loop seams, and works completely offline!
+
+---
+
+## 🎶 13 Procedural Audio Tracks (Manual Mixer)
+
+A compact, collapsible **🎧** button in the top-left corner opens an audio mixer featuring **13 combinable tracks** and a master volume slider:
+
+* 🌧️ **Rain & Distant Thunder** — Soft rainfall outside the window with occasional deep, rolling thunderclaps.
+* 🔥 **Campfire Crackle** — Warm low flame rumble, frequent bright sparks, and crisp snapping firewood.
+* 🌬️ **Howling Wind** — Sweeping, dynamic gusts of cold night wind.
+* 💿 **Spinning Vinyl** — Pure analog vinyl groove hiss oscillating at 33.3 RPM with vintage dust crackles (no music, pure turntable ambiance).
+* 🌌 **Dark Synth Drone** — A deep, evolving low-frequency atmospheric drone for mysterious, tense, or supernatural scenes.
+* 💓 **Deep Heartbeat** — A clear, resonant double pulse (*lub-dub*) for dramatic, tense, or romantic moments.
+* 🦗 **Night Crickets** — Realistic multi-layered cricket chirps of a summer night forest.
+* 🌊 **Ocean Waves** — Slow, soothing surf rolling onto the shore and receding.
+* 🕰️ **Grandfather Clock** — Steady, resonant pendulum clock *tick-tock* in a quiet room.
+* 🎐 **Japanese Wind Chimes (Furin)** — Delicate, crystalline bells tuned to the Japanese Hirajoshi pentatonic scale.
+* 🏙️ **Distant City & Neon Hum** — Muffled late-night urban traffic, occasional passing cars, and a subtle 120Hz neon sign hum.
+* 💧 **Cave Water Drops** — Hollow subterranean air and echoing water droplets.
+* 🐱 **Cat Purr** — A warm, rhythmic feline purr (inhale and exhale cycle) for cozy indoor scenes.
+
+---
+
+## 🔗 Weather Sync & 🤖 Smart Auto-Audio
+
+In the **Extensions -> 🎧 Ambient Soundscape** settings panel, you can configure:
+
+1. **Show Sound Button (🎧) in UI:** Quickly hide the mixer and stop all active sounds.
+2. **🔗 Sync with Weather Effects (🌤️):**
+   If you also use the **ST Weather Effects** extension, toggling visual effects automatically toggles their matching soundscapes:
+   * **🌧️ Rain** -> Rain & Thunder audio
+   * **❄️ Snow** -> Howling Wind audio
+   * **🔥 Embers & Ash** -> Campfire Crackle audio
+   * **📼 VHS Overlay** -> Spinning Vinyl audio
+   * **🪰 Fireflies** -> Night Crickets audio
+   * **🌸 Sakura / 🍁 Momiji Leaves** -> Wind Chimes (Furin) audio
+3. **🤖 Smart Auto-Audio (Context-Aware Mode):**
+   Automatically scans the latest chat messages in both **English and Russian** and dynamically fades in/out matching ambient sounds based on the current roleplay scene (rain, fireplace, wind, racing heartbeat, crickets, ocean beach, ticking clock, wind chimes, city streets, dungeon/cave, or a purring cat)—automatically fading them out when the scene changes!
+```
+
+---
