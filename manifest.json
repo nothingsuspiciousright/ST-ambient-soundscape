@@ -1,0 +1,11 @@
+{
+    "display_name": "Ambient Soundscape (Фоновые звуки и музыка)",
+    "loading_order": 105,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "ricebowl",
+    "version": "1.0.0",
+    "homePage": ""
+}
